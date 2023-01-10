@@ -25,6 +25,7 @@ public class LoginTest extends BaseClass {
 		launchApp(browserName); 
 		loginPage = new LoginPage();
 		homepage = new HomePage();
+		System.out.println("changes done");
 	}
 	
 //@AfterMethod
